@@ -1,0 +1,39 @@
+
+html, body{
+    height: 100%;
+}
+
+.login-content{
+    width: 100%;
+    height: 100%;
+    background: url('../img/login_banner.jpg') no-repeat;
+    background-size: 100% 100%;
+}
+
+.tpl-login{
+    background-color: white;
+    width: 30%;
+    height: 35%;
+    position: relative;
+    top: 25%;
+    border-radius: 10px;
+}
+
+.tpl-login-content{
+    width: 300px;
+    padding-top: 70px;
+}
+
+.err-user, .err-pass{
+    height: 2rem;
+    font-size: 12px;
+    color: red;
+    display: none;
+}
+
+.am-form-user, .am-form-pass{
+    margin-bottom: 2rem;
+}
+.am-form-margin{
+    margin-bottom: 0px;
+}
